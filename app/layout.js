@@ -1,15 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from 'next/font/google';
 import "./globals.css";
+import '../utils/fontawesome';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+const poppins = Poppins({
+  subsets: ['latin'], // choose subsets you need
+  weight: ['400', '500', '600', '700'], // choose font weights you need
+  variable: '--font-poppins', // optional for CSS variable
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -18,10 +19,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={poppins.variable}>
+      <body>
         {children}
       </body>
     </html>
