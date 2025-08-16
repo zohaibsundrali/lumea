@@ -1,5 +1,5 @@
 import React from 'react'
-import './Navbar.css'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
  import phonevolume from '../../../public/phone-volume.svg';
