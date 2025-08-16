@@ -5,7 +5,7 @@ import questionHelp from '../../../public/question-help.svg';
 import Image from 'next/image';
 const WhyChooseUs = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full py-10'>
         <div className='w-[80%]  ml-auto flex'>
             <div className='w-[40%]  pr-8'>
                   <h1 className="text-[37px] text-black font-bold">
