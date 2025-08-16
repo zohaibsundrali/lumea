@@ -9,7 +9,7 @@ import Image from 'next/image';
  import search from '../../../public/search.svg';
 import Link from 'next/link';
 const Navbar = () => {
-  return (
+  return ( 
     <>
     
        {/* Top Bar */}
