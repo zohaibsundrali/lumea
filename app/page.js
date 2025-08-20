@@ -10,6 +10,8 @@ import FAQ from './components/FAQ/FAQ'
 import Plan from './components/Plan/Plan'
 import ClientReviews from './components/ClientReviews/ClientReviews'
 import CompanyMission from './components/CompanyMission/CompanyMission'
+import News from './components/News/News'
+import Footer from './components/Footer/Footer'
 
 const page = () => {
   return (
@@ -25,6 +27,8 @@ const page = () => {
       <Plan/>
       <ClientReviews/>
       <CompanyMission/>
+      <News/>
+      <Footer/>
     </div>
   )
 }
