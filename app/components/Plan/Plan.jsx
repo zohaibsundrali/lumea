@@ -40,7 +40,7 @@ const plans = [
          <div className="w-[60%] mx-auto py-15">
            {/* Heading Section */}
            <div className="text-center">
-             <h1 className="text-[30px] font-semibold">Meet Our Team Members</h1>
+             <h1 className="text-[30px] font-semibold">Choose Your Plan</h1>
              <div className="w-[90px] h-[3px] bg-[#d9326f] my-3 mx-auto"></div>
              <p className="text-center w-[70%] mx-auto pb-5">
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
