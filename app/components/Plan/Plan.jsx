@@ -36,7 +36,7 @@ const plans = [
 
 
   return (
-   <div className="w-full">
+   <div className="w-full bg-gray-100">
          <div className="w-[60%] mx-auto py-15">
            {/* Heading Section */}
            <div className="text-center">

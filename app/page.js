@@ -8,6 +8,8 @@ import TeamMembers from './components/TeamMembers/TeamMembers'
 import Achievements from './components/Achievements/Achievements'
 import FAQ from './components/FAQ/FAQ'
 import Plan from './components/Plan/Plan'
+import ClientReviews from './components/ClientReviews/ClientReviews'
+import CompanyMission from './components/CompanyMission/CompanyMission'
 
 const page = () => {
   return (
@@ -21,6 +23,8 @@ const page = () => {
       <Achievements/>
       <FAQ/>
       <Plan/>
+      <ClientReviews/>
+      <CompanyMission/>
     </div>
   )
 }
