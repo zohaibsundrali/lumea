@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+
 import Hero from './components/HeroMain/Hero'
 import BusinessSolutions from './components/BusinessSolutions/BusinessSolutions'
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs'
@@ -11,12 +11,12 @@ import Plan from './components/Plan/Plan'
 import ClientReviews from './components/ClientReviews/ClientReviews'
 import CompanyMission from './components/CompanyMission/CompanyMission'
 import News from './components/News/News'
-import Footer from './components/Footer/Footer'
+
 
 const page = () => {
   return (
     <div>
-      <Navbar/>
+  
       <Hero/>
       <BusinessSolutions/>
       <WhyChooseUs/>
@@ -28,7 +28,7 @@ const page = () => {
       <ClientReviews/>
       <CompanyMission/>
       <News/>
-      <Footer/>
+      
     </div>
   )
 }

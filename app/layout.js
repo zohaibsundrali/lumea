@@ -3,6 +3,8 @@ import "./globals.css";
 import '../utils/fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 
 const poppins = Poppins({
@@ -21,7 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
       <body>
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

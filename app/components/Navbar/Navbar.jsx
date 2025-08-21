@@ -82,8 +82,8 @@ const Navbar = () => {
             <h2 className='text-xl text-white font-semibold cursor-pointer uppercase'>Lumea</h2>
           </div>
           <div className='flex items-center gap-x-5'>
-              <Link href='' className='text-[12px] text-white font-semibold '>Home</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>About</Link>
+              <Link href='/' className='text-[12px] text-white font-semibold '>Home</Link>
+              <Link href='/about' className='text-[12px] text-white font-semibold '>About</Link>
               <Link href='' className='text-[12px] text-white font-semibold '>Services</Link>
               <Link href='' className='text-[12px] text-white font-semibold '>Projects</Link>
               <Link href='' className='text-[12px] text-white font-semibold '>Gallery</Link>
