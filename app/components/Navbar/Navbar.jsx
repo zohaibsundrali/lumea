@@ -85,11 +85,11 @@ const Navbar = () => {
               <Link href='/' className='text-[12px] text-white font-semibold '>Home</Link>
               <Link href='/about' className='text-[12px] text-white font-semibold '>About</Link>
               <Link href='/services' className='text-[12px] text-white font-semibold '>Services</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>Projects</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>Gallery</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>Pages</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>News</Link>
-              <Link href='' className='text-[12px] text-white font-semibold '>Contact</Link>
+              <Link href='/projects' className='text-[12px] text-white font-semibold '>Projects</Link>
+              <Link href='/gallery' className='text-[12px] text-white font-semibold '>Gallery</Link>
+              <Link href='/team' className='text-[12px] text-white font-semibold '>Team</Link>
+              <Link href='/news' className='text-[12px] text-white font-semibold '>News</Link>
+              <Link href='/contacts' className='text-[12px] text-white font-semibold '>Contact</Link>
                   <a href=""><Image src={search} width={20} height={20} alt='Search'/></a>
           </div>
 
